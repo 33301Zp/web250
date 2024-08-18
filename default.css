@@ -1,0 +1,27 @@
+body
+{
+  margin: 100px;
+  font-family: garamond;
+  color: rgb(45, 37, 166);
+  background-color: rgb(254, 108, 213);
+  font-size: 200%;
+}
+header 
+{
+  font-family: garamond;
+  color:rgb(70, 70, 248);
+  font-size: 250%;
+}
+ol
+{
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1
+{
+  color: rgb(242, 242, 77);
+  font-size: 200%;
+  font-family: garamond;
+}
