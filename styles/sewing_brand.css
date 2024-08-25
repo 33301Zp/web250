@@ -11,6 +11,7 @@ header
   font-family: garamond;
   color:rgb(2, 2, 26);
   font-size: 200%;
+  text-align: center;
 }
 ol
 {
@@ -29,4 +30,11 @@ h1
   font-size: 100%;
   font-family: candara;
   background-color: rgba(138, 95, 138, 0.692);
+  text-align: center;
+}
+figure {
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
