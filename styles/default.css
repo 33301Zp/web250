@@ -5,12 +5,14 @@ body
   color: rgb(18, 14, 68);
   background-color: rgb(188, 172, 247);
   font-size: 200%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 header 
 {
   font-family: garamond;
   color:rgb(2, 2, 26);
-  font-size: 200%;
+  font-size: 160%;
   text-align: center;
 }
 ol
