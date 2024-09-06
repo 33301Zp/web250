@@ -36,7 +36,7 @@ a {
 a:hover {
   color: rgb(236, 52, 27);
 }
-h1
+h1, h2
 {
   color: rgb(253, 249, 249);
   font-size: 100%;
@@ -47,7 +47,7 @@ h1
 figure {
   text-align: center;
 }
-h2 {
+h3 {
   text-align: center;
 }
 .custom-list {

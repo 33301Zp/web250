@@ -26,12 +26,12 @@ a {
 a:hover {
   color: rgb(236, 52, 27);
 }
-h1
+h1, h2
 {
-  color: rgb(245, 245, 11);
+  color: rgb(253, 249, 249);
   font-size: 100%;
-  font-family: garamond;
-  background-color: rgba(167, 163, 165, 0.692);
+  font-family: candara;
+  background-color: rgba(138, 95, 138, 0.692);
   text-align: center;
 }
 .custom-list {
