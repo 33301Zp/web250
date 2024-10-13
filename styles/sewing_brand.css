@@ -1,14 +1,14 @@
 body
 {
-  margin: 50px;
-  font-family: candara;
+  margin: 100px;
+  font-family: Tahoma;
   color: rgb(18, 14, 68);
   background-color: rgb(188, 172, 247);
-  font-size: 200%;
+  font-size: 180%;
   max-width: 1200px;
   margin: 0 auto;
 }
-.centered-rectangle {
+main > article {
   background-color: rgba(243, 134, 238, 0.767);
   width: 100%;
   height: 50%;
@@ -20,36 +20,82 @@ body
 }
 header 
 {
-  font-family: garamond;
-  color:rgb(2, 2, 26);
-  font-size: 160%;
+  font-family: Tahoma;
+  font-size: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header ol{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   text-align: center;
+}
+header ol li {
+  display: inline;
+}
+header ol li a {
+  text-decoration: none;
+  color: rgb(73, 8, 73);
+  margin-right: 40px;
+}
+header ol li a:last-child {
+  margin-right: 0;
 }
 ol
 {
   list-style-type: none;
 }
-a {
-  text-decoration: none;
-  color: rgb(75, 20, 23);
-}
 a:hover {
-  color: rgb(236, 52, 27);
+  color: rgb(240, 0, 120);
 }
 h1, h2
 {
   color: rgb(253, 249, 249);
-  font-size: 100%;
-  font-family: candara;
+  font-size: 110%;
+  font-family: Trebuchet MS;
   background-color: rgba(138, 95, 138, 0.692);
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 figure {
   text-align: center;
+  font-size: 80%;
 }
-h3 {
-  text-align: center;
+figcaption {
+  font-style: italic;
 }
 .custom-list {
   list-style-type: disc;
+}
+footer {
+  text-align: center;
+  font-size: 90%;
+}
+a {
+  text-decoration: none;
+  color: rgb(75, 20, 23);
+}
+footer ol li a {
+  text-decoration: none;
+  color: rgb(73, 8, 73);
+}
+figcaption {
+  font-style: italic;
+}
+p a {
+  font-style: italic;
+  font-weight: bold;
+}
+h3 {
+  font-style: italic;
+  text-align: center;
+  font-size: 90%;
+}
+h4 {
+  font-weight: bold;
+}
+article {
+  font-size: 80%;
 }
