@@ -25,25 +25,24 @@ header
   padding-top: 10px;
   padding-bottom: 10px;
 }
-ol
-{
+nav {
   list-style-type: none;
 }
-header ol {
+nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
-header ol li {
+nav ul li {
   display: inline;
 }
-header ol li a {
+nav ul li a, nav ul li {
   text-decoration: none;
   color: rgb(73, 8, 73);
   margin-right: 40px;
 }
-header ol li a:last-child {
+nav ul li a:last-child, nav ul li {
   margin-right: 0;
 }
 a:hover {
