@@ -98,3 +98,6 @@ h4 {
 article {
   font-size: 80%;
 }
+p a {
+  font-style: italic;
+}

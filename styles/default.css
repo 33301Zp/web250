@@ -100,3 +100,6 @@ footer ul li a {
 article {
   font-size: 80%;
 }
+p a {
+  font-style: italic;
+}
