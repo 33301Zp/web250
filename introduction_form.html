@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <title>Zoe Potts' Sew It - Introduction Form</title>
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+
+        <main>
+            <article>
+                <h2>Introduction Form</h2>
+                <form id="intro-form">
+                    <label for="personal">Personal Background: </label>
+                    <input type="text" id="personal" name="personal" placeholder="here..." 
+                    value="I’ve lived in North Carolina my whole life. I’m 23 and working on completing my associate's degree." required><br>
+
+                    <label for="professional">Professional Background: </label>
+                    <input type="text" id="professional" name="professional" placeholder="here..." 
+                    value="I dog-sat for my neighbors when they needed me. I started an art business but it didn’t last long. Although I’m still passionate about my crafts. I worked at a greenhouse for a little over a year." required><br>
+
+                    <label for="academic">Academic Background: </label>
+                    <input type="text" id="academic" name="academic" placeholder="here..." 
+                    value="I graduated from an online high school before COVID, so I was ahead of the curve. Then I went to college in 2020 and left after COVID started. Then I started back up in 2023. I plan to finish in spring 2025." required><br>
+
+                    <label for="subjectBackground">Background in this Subject: </label>
+                    <input type="text" id="subjectBackground" name="subjectBackground" placeholder="here..." 
+                    value="My only computer background is with the classes I’ve taken in information technology full-stack programming." required><br>
+
+                    <label for="computer">Primary Computer Platform: </label>
+                    <input type="text" id="computer" name="computer" placeholder="here..." 
+                    value="I use Windows 11 on a Lenovo laptop with an LG monitor." required><br>
+
+
+                    <label for="courses">Courses I'm Taking and Why(only one is needed): </label><br>
+
+                        <input type="text" id="code1" name="course1" placeholder="course code here..." value="WEB250" required>
+                        <input type="text" id="course1" name="course1" placeholder="course name here..." value="Database Driven Websites" required>
+                        <input type="text" id="reason1" name="course1" placeholder="reasons for taking course here..." 
+                        value="I’m taking this because it is a requirement for my degree. I also want to learn more about website creation." required><br>
+
+                        <input type="text" id="code2" name="course2" placeholder="course code here..." value="WEB140">
+                        <input type="text" id="course2" name="course2" placeholder="course name here..." value="Web Development Tools">
+                        <input type="text" id="reason2" name="course2" placeholder="reasons for taking course here..."
+                        value="I’m taking this class because it is a requirement. Also to learn more about web development."><br>
+
+                        <input type="text" id="code3" name="course3" placeholder="course code here..." value="WEB115">
+                        <input type="text" id="course3" name="course3" placeholder="course name here..." value="Web Markup and Scripting">
+                        <input type="text" id="reason3" name="course3" placeholder="reasons for taking course here..."
+                        value="I’m taking this class because it is a requirement and to learn more about programming."><br>
+
+                        <input type="text" id="code4" name="course4" placeholder="course code here..." value="CSC221">
+                        <input type="text" id="course4" name="course4" placeholder="course name here..." value="Advanced Python Programming">
+                        <input type="text" id="reason4" name="course4" placeholder="reasons for taking course here..."
+                        value="I’m taking this class to get better at Python. It’s also a requirement."><br>
+
+                        <input type="text" id="code5" name="course5" placeholder="course code here...">
+                        <input type="text" id="course5" name="course5" placeholder="course name here...">
+                        <input type="text" id="reason5" name="course5" placeholder="reasons for taking course here..."><br>
+
+                    <label for="funny">Funny/Interesting Item to Remember me by: </label>
+                    <input type="text" id="funny" name="funny" placeholder="here..." 
+                    value="I love to crochet. I also love to sew and make clothing." required><br>
+
+                    <label for="share">I'd also like to share: </label>
+                    <input type="text" id="share" name="share" placeholder="here..." 
+                    value="I have three cats Yoshi, Shelley, and Marcella." required><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset" id="resetbutton">
+                </form>
+
+                <script src="scripts/introduciton_form_submission.js"></script>
+                <script src="scripts/introduciton_form_results.js"></script>
+            </article>
+        </main>
+
+	<div data-include="components/footer.html"></div>
+
+    <script src="scripts/htmlinclude.js"></script>
+</body>
+</html>

@@ -17,6 +17,7 @@ main {
   border: 3px solid rgba(122, 3, 86, 0.733);
   padding: 20px;
   margin: auto;
+  font-size: 80%;
 }
 header 
 {

@@ -17,6 +17,7 @@ main {
   border: 3px solid rgb(122, 3, 86, 0.733);
   padding: 20px;
   margin: auto;
+  font-size: 80%;
 }
 header 
 {
@@ -97,8 +98,27 @@ footer ul li a {
   text-decoration: none;
   color: rgb(73, 8, 73);
 }
-article {
-  font-size: 80%;
+input[type="submit"] {
+  margin-top: 20px;
+  justify-content: center;
+}
+input[type="submit"]:hover {
+  background-color: rgba(10, 107, 35, 0.767);
+  box-shadow: 0px 0px 30px rgba(4, 245, 24, 0.712);
+  color: white;
+}
+input[type="reset"] {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+input[type="reset"]:hover {
+  background-color: rgb(196, 7, 7);
+  box-shadow: 0px 0px 30px rgba(245, 4, 4, 0.712);
+  color: white;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 p a {
   font-style: italic;
