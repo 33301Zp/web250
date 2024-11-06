@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded'), function() {
     const personal = localStorage.getItem('personal');
     const professional = localStorage.getItem('professional');
     const academic = localStorage.getItem('academic');
-    const subject_background = localStorage.getItem('subject_background');
+    const background = localStorage.getItem('background');
     const computer = localStorage.getItem('computer');
 
     const code1 = localStorage.getItem('code1');
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded'), function() {
     document.getElementById('personal').value = personal || '';
     document.getElementById('professional').value = professional || '';
     document.getElementById('academic').value = academic || '';
-    document.getElementById('subject_background').value = subject_background || '';
+    document.getElementById('background').value = background || '';
     document.getElementById('computer').value = computer || '';
 
     document.getElementById('code1').value = code1 || '';

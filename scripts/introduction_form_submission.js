@@ -4,7 +4,7 @@ document.getElementById('intro-form').addEventListener('submit', function(event)
     const personal = document.getElementById('personal').value;
     const professional = document.getElementById('professional').value;
     const academic = document.getElementById('academic').value;
-    const subject_background = document.getElementById('subject_background').value;
+    const background = document.getElementById('background').value;
     const computer = document.getElementById('computer').value;
 
     const code1 = document.getElementById('code1').value;
@@ -34,7 +34,7 @@ document.getElementById('intro-form').addEventListener('submit', function(event)
     localStorage.setItem('personal', personal);
     localStorage.setItem('professional', professional);
     localStorage.setItem('academic', academic);
-    localStorage.setItem('subject_background', subject_background);
+    localStorage.setItem('background', background);
     localStorage.setItem('computer', computer);
 
     localStorage.setItem('code1', code1);
