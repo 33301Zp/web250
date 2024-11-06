@@ -30,40 +30,40 @@ document.addEventListener('DOMContentLoaded', function() {
     const share = localStorage.getItem('share');
 
 
-    document.getElementById('personal').value = personal || '';
-    document.getElementById('professional').value = professional || '';
-    document.getElementById('academic').value = academic || '';
-    document.getElementById('background').value = background || '';
-    document.getElementById('computer').value = computer || '';
+    document.getElementById('personal').value = personal;
+    document.getElementById('professional').value = professional;
+    document.getElementById('academic').value = academic;
+    document.getElementById('background').value = background;
+    document.getElementById('computer').value = computer;
 
-    document.getElementById('code1').value = code1 || '';
-    document.getElementById('course1').value = course1 || '';
-    document.getElementById('reason1').value = reason1 || '';
+    document.getElementById('code1').value = code1;
+    document.getElementById('course1').value = course1;
+    document.getElementById('reason1').value = reason1;
 
     if (course2) {
-        document.getElementById('code2').value = code2 || '';
-        document.getElementById('course2').value = course2 || '';
-        document.getElementById('reason2').value = reason2 || '';
+        document.getElementById('code2').value = code2;
+        document.getElementById('course2').value = course2;
+        document.getElementById('reason2').value = reason2;
     }
 
     if (course3) {
-        document.getElementById('code3').value = code3 || '';
-        document.getElementById('course3').value = course3 || '';
-        document.getElementById('reason3').value = reason3 || '';
+        document.getElementById('code3').value = code3;
+        document.getElementById('course3').value = course3;
+        document.getElementById('reason3').value = reason3;
     }
 
     if (course4) {
-        document.getElementById('code4').value = code4 || '';
-        document.getElementById('course4').value = course4 || '';
-        document.getElementById('reason4').value = reason4 || '';
+        document.getElementById('code4').value = code4;
+        document.getElementById('course4').value = course4;
+        document.getElementById('reason4').value = reason4;
     }
 
     if (course5) {
-        document.getElementById('code5').value = code5 || '';
-        document.getElementById('course5').value = course5 || '';
-        document.getElementById('reason5').value = reason5 || '';
+        document.getElementById('code5').value = code5;
+        document.getElementById('course5').value = course5;
+        document.getElementById('reason5').value = reason5;
     }
 
-    document.getElementById('funny').value = funny || '';
-    document.getElementById('share').value = share || '';
+    document.getElementById('funny').value = funny;
+    document.getElementById('share').value = share;
 });
