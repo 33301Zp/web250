@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded'), function() {
+document.addEventListener('DOMContentLoaded', function() {
 
     const personal = localStorage.getItem('personal');
     const professional = localStorage.getItem('professional');
@@ -66,4 +66,4 @@ document.addEventListener('DOMContentLoaded'), function() {
 
     document.getElementById('funny').value = funny || '';
     document.getElementById('share').value = share || '';
-};
+});
