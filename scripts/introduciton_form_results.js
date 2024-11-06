@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded'), function() {
     const share = localStorage.getItem('share');
 
 
-
     document.getElementById('personal').value = personal || '';
     document.getElementById('professional').value = professional || '';
     document.getElementById('academic').value = academic || '';
