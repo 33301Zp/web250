@@ -120,6 +120,15 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+li::before {
+  content: attr(data-prompt);
+}
+li::after {
+  content: attr(data-slash);
+}
+p::after {
+  content: attr(data-colon);
+}
 p a {
   font-style: italic;
 }
