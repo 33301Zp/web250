@@ -26,6 +26,23 @@ header
   padding-top: 2px;
   padding-bottom: 10px;
 }
+@media (max-width: 1150px) {
+  header {
+    padding: 10px;
+ }
+  h1 img {
+    height: 70px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+    font-size: 1em;
+ }
+  h1 img {
+    height: 70px;
+  }
+}
 nav {
   list-style-type: none;
 }
@@ -97,6 +114,13 @@ footer ul li a {
 }
 figcaption {
   font-style: italic;
+}
+h1 img {
+  float: left;
+  margin-top: -10px;
+}
+h1 img:nth-child(2) {
+  float: right;
 }
 h3 {
   font-size: 90%;
