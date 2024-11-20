@@ -43,6 +43,13 @@ header
     height: 70px;
   }
 }
+h1 img {
+  float: left;
+  margin-top: -10px;
+}
+h1 img:nth-child(2) {
+  float: right;
+}
 nav {
   list-style-type: none;
 }
@@ -114,13 +121,6 @@ footer ul li a {
 }
 figcaption {
   font-style: italic;
-}
-h1 img {
-  float: left;
-  margin-top: -10px;
-}
-h1 img:nth-child(2) {
-  float: right;
 }
 h3 {
   font-size: 90%;
