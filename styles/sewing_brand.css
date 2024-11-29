@@ -4,7 +4,7 @@ body
   font-family: candara;
   color: rgb(18, 14, 68);
   background-color: rgb(188, 172, 247);
-  font-size: 200%;
+  font-size: 180%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -22,9 +22,12 @@ main {
 header 
 {
   font-family: Trebuchet MS;
-  font-size: 100%;
-  padding-top: 2px;
-  padding-bottom: 10px;
+  font-size: 90%;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+p {
+  font-size: 90%;
 }
 @media (max-width: 1150px) {
   header {
@@ -123,12 +126,12 @@ figcaption {
   font-style: italic;
 }
 h3 {
-  font-size: 90%;
+  font-size: 85%;
   font-weight: bold;
 }
 h4 {
   font-style: italic;
-  font-size: 90%;
+  font-size: 80%;
 }
 article {
   font-size: 80%;

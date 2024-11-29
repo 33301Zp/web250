@@ -4,7 +4,7 @@ body
   font-family: candara;
   color: rgb(10, 8, 32);
   background-color: rgb(188, 172, 247);
-  font-size: 200%;
+  font-size: 180%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -19,12 +19,15 @@ main {
   margin: auto;
   font-size: 80%;
 }
-header 
-{
+p {
+  font-size: 90%;
+}
+header {
   font-family: Trebuchet MS;
-  font-size: 100%;
-  padding-top: 2px;
+  font-size: 90%;
+  padding-top: 10px;
   padding-bottom: 10px;
+  max-width: 1200px;
 }
 @media (max-width: 1150px) {
   header {
@@ -114,7 +117,7 @@ h4 {
 }
 footer {
   text-align: center;
-  font-size: 90%;
+  font-size: 80%;
 }
 footer ul {
   list-style-type: none;
