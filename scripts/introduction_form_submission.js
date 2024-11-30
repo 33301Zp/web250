@@ -1,6 +1,7 @@
 document.getElementById('intro-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
+    const caption = document.getElementById('caption').value;
     const personal = document.getElementById('personal').value;
     const professional = document.getElementById('professional').value;
     const academic = document.getElementById('academic').value;
@@ -30,7 +31,7 @@ document.getElementById('intro-form').addEventListener('submit', function(event)
     const funny = document.getElementById('funny').value;
     const share = document.getElementById('share').value;
 
-
+    localStorage.setItem('caption', caption);
     localStorage.setItem('personal', personal);
     localStorage.setItem('professional', professional);
     localStorage.setItem('academic', academic);
@@ -68,5 +69,16 @@ document.getElementById('intro-form').addEventListener('submit', function(event)
     localStorage.setItem('funny', funny);
     localStorage.setItem('share', share);
 
-    window.location.href = 'introduction_form_results.html';
+    const image = document.getElementById('image');
+    const file = image.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onloadend = function() {
+            localStorage.setItem('userImage', reader.result);
+            window.location.href = 'introduction_form_results.html';
+        };
+        reader.readAsDataURL(file);
+    } else {
+        window.location.href = 'introduction_form_results.html';
+    }
 });

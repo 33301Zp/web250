@@ -1,5 +1,4 @@
-body
-{
+body {
   margin: 100px;
   font-family: candara;
   color: rgb(10, 8, 32);
@@ -157,6 +156,14 @@ input[type="reset"]:hover {
 input {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+#image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.hidden-bullet-point {
+  list-style-type: none;
 }
 li::before {
   content: attr(data-prompt);

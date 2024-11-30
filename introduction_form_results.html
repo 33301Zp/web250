@@ -11,8 +11,12 @@
 <body>
     <div data-include="components/header.html"></div>
 
-        <main>
-            <h2>Introduction</h2>
+    <main>
+        <h2>Introduction</h2>
+        <figure>
+            <img id="image" alt="prefilled image or user image">
+            <figcaption id="caption"></figcaption>
+        </figure>
             <p>
                 <ul class="custom-list">
                     <li data-prompt="Personal Background: " id="personal"></li>
@@ -23,15 +27,15 @@
 
                     <li>Courses I'm Taking and Why:</li>
                         <ol class="custom-list">
-                            <li data-slash=" - " id="code1"></li><p data-colon=": " id="course1"></p><p id="reason1"></p>
+                            <li><span id="code1"></span><span id="course1"></span><span id="reason1"></span></li>
 
-                            <li data-slash=" - " id="code2"></li><p data-colon=": " id="course2"></p><p id="reason2"></p>
+                            <li id="item2"><span id="code2"></span><span id="course2"></span><span id="reason2"></span></li>
 
-                            <li data-slash=" - " id="code3"></li><p data-colon=": " id="course3"></p><p id="reason3"></p>
+                            <li id="item3"><span id="code3"></span><span id="course3"></span><span id="reason3"></span></li>
 
-                            <li data-slash=" - " id="code4"></li><p data-colon=": " id="course4"></p><p id="reason4"></p>
+                            <li id="item4"><span id="code4"></span><span id="course4"></span><span id="reason4"></span></li>
 
-                            <li data-slash=" - " id="code5"></li><p data-colon=": " id="course5"></p><p id="reason5"></p>
+                            <li id="item5"><span id="code5"></span><span id="course5"></span><span id="reason5"></span></li>
                         </ol>
 
                     <li data-prompt="Funny/Interesting Item to Remember me by: " id="funny"></li>
@@ -40,7 +44,7 @@
 
                 <script src="scripts/introduction_form_results.js"></script>
             </p>
-        </main>
+    </main>
         
 	<div data-include="components/footer.html"></div>
 

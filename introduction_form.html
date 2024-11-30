@@ -13,9 +13,14 @@
 
         <main>
             <article>
-                <p>This is still being worked on</p>
                 <h2>Introduction Form</h2>
                 <form id="intro-form">
+                    <label for="image">Add your image file here (starting with image prefilled): </label>
+                    <input type="file" id="image" accept="image/">
+
+                    <label for="caption">Add your image caption here: </label>
+                    <input type="text" id="caption" placeholder="Put caption here..." value="In a sunflower field near my house" required><br>
+
                     <label for="personal">Personal Background: </label>
                     <input type="text" id="personal" name="personal" placeholder="here..." 
                     value="I’ve lived in North Carolina my whole life. I’m 23 and working on completing my associate's degree." required><br>
@@ -37,31 +42,31 @@
                     value="I use Windows 11 on a Lenovo laptop with an LG monitor." required><br>
 
 
-                    <label for="courses">Courses I'm Taking and Why(only one is needed): </label><br>
+                    <label for="courses">Courses I'm Taking and Why (only one is needed): </label><br>
 
                         <input type="text" id="code1" name="course1" placeholder="course code here..." value="WEB250" required>
                         <input type="text" id="course1" name="course1" placeholder="course name here..." value="Database Driven Websites" required>
-                        <input type="text" id="reason1" name="course1" placeholder="reasons for taking course here..." 
+                        <input type="text" id="reason1" name="course1" placeholder="reasons for taking course..." 
                         value="I’m taking this because it is a requirement for my degree. I also want to learn more about website creation." required><br>
 
                         <input type="text" id="code2" name="course2" placeholder="course code here..." value="WEB140">
                         <input type="text" id="course2" name="course2" placeholder="course name here..." value="Web Development Tools">
-                        <input type="text" id="reason2" name="course2" placeholder="reasons for taking course here..."
+                        <input type="text" id="reason2" name="course2" placeholder="reasons for taking course..."
                         value="I’m taking this class because it is a requirement. Also to learn more about web development."><br>
 
                         <input type="text" id="code3" name="course3" placeholder="course code here..." value="WEB115">
                         <input type="text" id="course3" name="course3" placeholder="course name here..." value="Web Markup and Scripting">
-                        <input type="text" id="reason3" name="course3" placeholder="reasons for taking course here..."
+                        <input type="text" id="reason3" name="course3" placeholder="reasons for taking course..."
                         value="I’m taking this class because it is a requirement and to learn more about programming."><br>
 
                         <input type="text" id="code4" name="course4" placeholder="course code here..." value="CSC221">
                         <input type="text" id="course4" name="course4" placeholder="course name here..." value="Advanced Python Programming">
-                        <input type="text" id="reason4" name="course4" placeholder="reasons for taking course here..."
+                        <input type="text" id="reason4" name="course4" placeholder="reasons for taking course..."
                         value="I’m taking this class to get better at Python. It’s also a requirement."><br>
 
                         <input type="text" id="code5" name="course5" placeholder="course code here...">
                         <input type="text" id="course5" name="course5" placeholder="course name here...">
-                        <input type="text" id="reason5" name="course5" placeholder="reasons for taking course here..."><br>
+                        <input type="text" id="reason5" name="course5" placeholder="reasons for taking course..."><br>
 
                     <label for="funny">Funny/Interesting Item to Remember me by: </label>
                     <input type="text" id="funny" name="funny" placeholder="here..." 
