@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const element = document.getElementById(id);
         if (element && value) {
             element.textContent = `${prefix}${value}${suffix}`;
-        } else if (element) {
+        } else if (element && value) {
             element.textContent = '';
         } 
     };
@@ -64,4 +64,17 @@ document.addEventListener('DOMContentLoaded', function() {
     if (userImage) {
         imageElement.src = userImage;
     }
+
+    const form = document.getElementById('introForm');
+    form.addEventListener('submit', function(event) {
+        const inputs = form.querySelectorAll("input");
+
+        inputs.forEach(input => {
+            if (input.type !== "submit" && input.value === input.defaultValue) {
+                if (input.value === '') {
+                    input.value = '';
+                }
+            }
+        });
+    });
 });

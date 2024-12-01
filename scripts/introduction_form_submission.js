@@ -1,4 +1,4 @@
-document.getElementById('intro-form').addEventListener('submit', function(event) {
+document.getElementById('introForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const caption = document.getElementById('caption').value;
@@ -46,24 +46,40 @@ document.getElementById('intro-form').addEventListener('submit', function(event)
         localStorage.setItem('code2', code2);
         localStorage.setItem('course2', course2);
         localStorage.setItem('reason2', reason2);
+    } else {
+        localStorage.removeItem('code2');
+        localStorage.removeItem('course2');
+        localStorage.removeItem('reason2');
     }
 
     if (course3) {
         localStorage.setItem('code3', code3);
         localStorage.setItem('course3', course3);
         localStorage.setItem('reason3', reason3);
+    } else {
+        localStorage.removeItem('code3');
+        localStorage.removeItem('course3');
+        localStorage.removeItem('reason3');
     }
 
     if (course4) {
         localStorage.setItem('code4', code4);
         localStorage.setItem('course4', course4);
         localStorage.setItem('reason4', reason4);
+    } else {
+        localStorage.removeItem('code4');
+        localStorage.removeItem('course4');
+        localStorage.removeItem('reason4');
     }
 
     if (course5) {
         localStorage.setItem('code5', code5);
         localStorage.setItem('course5', course5);
         localStorage.setItem('reason5', reason5);
+    } else {
+        localStorage.removeItem('code5');
+        localStorage.removeItem('course5');
+        localStorage.removeItem('reason5');
     }
 
     localStorage.setItem('funny', funny);
@@ -79,6 +95,7 @@ document.getElementById('intro-form').addEventListener('submit', function(event)
         };
         reader.readAsDataURL(file);
     } else {
+        localStorage.removeItem('userImage');
         window.location.href = 'introduction_form_results.html';
     }
 });

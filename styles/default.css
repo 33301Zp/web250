@@ -157,6 +157,20 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+input[name="course-code"] {
+  width: 90px;
+}
+input[name="course-name"] {
+  width: 200px;
+}
+input[name="reasons"] {
+  width: 65%;
+  margin-bottom: 25px;
+}
+input[name="box-size"] {
+  width: 98%;
+  margin-bottom: 25px;
+}
 #image {
   display: block;
   margin: 0 auto;
