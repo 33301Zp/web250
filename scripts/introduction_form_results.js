@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         const inputs = form.querySelectorAll("input");
 
-        inputs.forEach(input => {
+        inputs.forEach((input) => {
             if (input.type !== "submit" && input.value === input.defaultValue) {
                 input.value = '';
             }
