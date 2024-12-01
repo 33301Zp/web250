@@ -67,13 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const form = document.getElementById('intro');
     form.addEventListener('submit', function(event) {
+        event.preventDefault();
         const inputs = form.querySelectorAll("input");
 
         inputs.forEach(input => {
             if (input.type !== "submit" && input.value === input.defaultValue) {
-                if (input.value === '') {
-                    input.value = '';
-                }
+                input.value = '';
             }
         });
     });
