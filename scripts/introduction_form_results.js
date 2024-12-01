@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
         imageElement.src = userImage;
     }
 
-    const form = document.getElementById('introForm');
+    const form = document.getElementById('intro');
     form.addEventListener('submit', function(event) {
         const inputs = form.querySelectorAll("input");
 

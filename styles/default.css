@@ -164,11 +164,11 @@ input[name="course-name"] {
   width: 200px;
 }
 input[name="reasons"] {
-  width: 65%;
+  width: 60%;
   margin-bottom: 25px;
 }
 input[name="box-size"] {
-  width: 98%;
+  width: 90%;
   margin-bottom: 25px;
 }
 #image {

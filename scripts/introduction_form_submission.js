@@ -1,4 +1,4 @@
-document.getElementById('introForm').addEventListener('submit', function(event) {
+document.getElementById('intro').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const caption = document.getElementById('caption').value;
