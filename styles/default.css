@@ -171,6 +171,10 @@ input[name="box-size"] {
   width: 90%;
   margin-bottom: 25px;
 }
+#output1 {
+  text-align: left;
+  line-height: .6;
+}
 #image {
   display: block;
   margin: 0 auto;
