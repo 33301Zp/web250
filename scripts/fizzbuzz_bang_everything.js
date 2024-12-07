@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const firstName = document.getElementById("fname").value;
         const lastName = document.getElementById("lname").value;
+        const startNum = parseInt(document.getElementById("start-num").value, 10);
+        const endNum = parseInt(document.getElementById("end-num").value, 10);
         const firstDivisor = parseInt(document.getElementById("first-num").value, 10);
         const firstWord = document.getElementById("first-word").value;
         const secondDivisor = parseInt(document.getElementById("second-num").value, 10);
@@ -27,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
             third: thirdWord,
             default: "Not divisible"
         };
-        for (let i = 1; i <= 140; i++) {
+        for (let i = startNum; i <= endNum; i++) {
             let fullLine = `${i}. `;
             let wordOutput = "";
 
