@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("script loaded");
 
     function checkDivision(number, divisor) {
         return number % divisor === 0;
@@ -7,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function greetUser(event) {
         event.preventDefault();
-        console.log("greetUser called");
 
         const firstName = document.getElementById("fname").value;
         const lastName = document.getElementById("lname").value;
